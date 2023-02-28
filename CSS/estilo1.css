@@ -9,6 +9,7 @@ border: 1px solid red;
 padding: 15px;
 background-color: aliceblue;
 font-family: 'Open Sans', sans-serif;
+
 }
    
 
@@ -39,14 +40,32 @@ font-size: 50px;
 text-align: center;
 }
     
-h2, h3 {
-color: blue;
+h2 {
+color: red; 
 padding: 10px;
 margin: 10px;
 font-family: 'Open Sans', sans-serif;
 font-size: 25px;
 text-align: center;
 }
+
+h3 {
+  color: blue;
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  }
+  
+p {
+  color: blue;
+padding: 20px;
+margin: 20px;
+font-family: 'Open Sans', sans-serif;
+font-size: 25px;
+    text-align: center;
+}  
 
 p1, p2, p3, p4 {
 color: blue;
@@ -76,4 +95,31 @@ margin-right: auto;
 .column {
   flex: 25%;
   padding: 5px;
+}
+
+.form label {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: .5em;
+  padding-inline-start: .5em;
+
+
+}
+
+.form label span {
+  color: #DA1414;
+}
+
+.form input, .form textarea {
+  box-sizing: border-box;
+  width: 50%;
+  font-size: 1rem;
+  padding: .8em;
+  border-radius: .5em;
+  border: 1px solid #858C94;
+}
+
+.form textarea {
+  margin-block-end: 2em;
+  font-family: inherit;
 }
